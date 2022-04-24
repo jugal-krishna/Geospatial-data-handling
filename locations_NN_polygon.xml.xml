@@ -1,0 +1,146 @@
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle>
+<Icon>
+<href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="z2">
+<IconStyle>
+<Icon>
+<href>http://www.google.com/intl/en_us/mapfiles/ms/micons/red-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Style id="z3">
+<IconStyle>
+<Icon>
+<href>http://www.google.com/intl/en_us/mapfiles/ms/micons/green-dot.png</href>
+</Icon>
+</IconStyle>
+</Style>
+<Folder>
+<name>Home</name>
+<Placemark>
+<name>Home</name>
+<styleUrl>#z3</styleUrl>
+<Point>
+<coordinates>-118.28705611599317,34.032495148685626</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>Fountains</name>
+<Placemark>
+<name>Village f</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.28504125919468,34.02515373459346</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Cine f</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.28647672594606,34.02356337200455</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Bing f</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.28557404700507,34.02226072739253</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Tommy f</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.28514478121505,34.02029281372925</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Viterbi f</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.28913618136181,34.020535161810244</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>RTCC f</name>
+<styleUrl>#z1</styleUrl>
+<Point>
+<coordinates>-118.28602347133354,34.02041142866558</coordinates>
+</Point>
+</Placemark>
+</Folder>
+<Folder>
+<name>Libraries</name>
+<Placemark>
+<name>Doheny l</name>
+<styleUrl>#z2</styleUrl>
+<Point>
+<coordinates>-118.28429414812493,34.02024463072921</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Accounting l</name>
+<styleUrl>#z2</styleUrl>
+<Point>
+<coordinates>-118.28554314450426,34.01919846233526 </coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Bioinfo l</name>
+<styleUrl>#z2</styleUrl>
+<Point>
+<coordinates>-118.28664797366368, 34.019484846885675</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Architecture l</name>
+<styleUrl>#z2</styleUrl>
+<Point>
+<coordinates>-118.28799564482847, 34.01934694714565</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>SciEng l</name>
+<styleUrl>#z2</styleUrl>
+<Point>
+<coordinates>-118.2888315890036, 34.019824701551904</coordinates>
+</Point>
+</Placemark>
+<Placemark>
+<name>Leavey l</name>
+<styleUrl>#z2</styleUrl>
+<Point>
+<coordinates>-118.28275801599352, 34.02195867318104</coordinates>
+</Point>
+</Placemark>
+</Folder>
+
+<Placemark>
+<name>MyPolygon</name>
+<Style><LineStyle><color>ffff7d53</color></LineStyle><PolyStyle><color>80fe4d28</color></PolyStyle></Style>
+<Polygon>
+<outerBoundaryIs>
+<LinearRing>
+<coordinates>-118.28554314450426,34.01919846233526 -118.28799564482847,34.01934694714565 -118.2888315890036,34.019824701551904 -118.28913618136181,34.020535161810244 -118.28705611599317,34.032495148685626 -118.28275801599352,34.02195867318104 -118.28429414812493,34.02024463072921 -118.28554314450426,34.01919846233526</coordinates>
+</LinearRing>
+</outerBoundaryIs>
+</Polygon> 
+</Placemark>
+
+<Placemark>
+<name>NearestNeighbor</name>
+<description>NearestNeighbor</description>
+<Style><LineStyle><color>ff0000ff</color><width>2</width></LineStyle></Style>
+<LineString>
+<coordinates>-118.28705611599317,34.032495148685626 -118.28504125919468,34.02515373459346</coordinates>
+</LineString>
+</Placemark>
+</Document>
+</kml>
